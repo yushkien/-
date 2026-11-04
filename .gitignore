@@ -1,45 +1,26 @@
-# ---- Unity ----
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
+# ---- Ren'Py ----
+# 자동 생성/캐시 파일
+game/cache/
+game/saves/
+game/bytecode.rpyb
 
-# Asset meta data (only ignore if the asset itself is ignored)
-# (keep .meta files tracked by default — Unity needs them)
+# 컴파일된 스크립트 (소스 .rpy 만 추적)
+*.rpyc
+*.rpymc
 
-# Visual Studio / Rider / VS Code
-.vs/
-.vscode/
-.idea/
-*.csproj
-*.unityproj
-*.sln
-*.suo
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
+# 빌드 산출물
+*-dists/
+*.rpa
 
-# Unity3D generated
-sysinfo.txt
-*.stackdump
+# 로그/임시
+log.txt
+errors.txt
+traceback.txt
+tmp/
 
-# Builds
-*.apk
-*.aab
-*.unitypackage
-*.app
-
-# Crashlytics / OS files
-crashlytics-build.properties
+# ---- OS / 에디터 ----
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.swp
